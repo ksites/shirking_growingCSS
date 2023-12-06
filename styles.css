@@ -1,0 +1,32 @@
+h2{
+  text-align: center;
+}
+
+.Flex-container{
+  border: 2px solid red;
+  display: flex;
+}
+.Flex-container .one{
+background: peachpuff;
+border: 4px solid brown;
+height: 180px; 
+flex-grow: 1;
+}
+.Flex-container .two{
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 180px; 
+  flex-grow: 1;
+  flex-shrink: 1;
+  }
+
+  .Flex-container .three{
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 180px; 
+    flex-grow: 1;
+    flex-basis: auto;
+    }
+
+    /* Learn More about how flex property works
+    It is Extremely important */
