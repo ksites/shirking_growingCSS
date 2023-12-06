@@ -16,10 +16,11 @@ flex-grow: 1;
   background: peachpuff;
   border: 4px solid brown;
   height: 180px; 
-  flex-grow: 1;
+  flex-grow: 2;
   flex-shrink: 1;
+  flex-basis: 0%;
   }
-
+/* Play with these property values to better understand the concept behind it */
   .Flex-container .three{
     background: peachpuff;
     border: 4px solid brown;
