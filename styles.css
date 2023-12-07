@@ -5,6 +5,12 @@ h2{
 .Flex-container{
   border: 2px solid red;
   display: flex;
+  /* This gap property will add gap between every element */
+  gap: 2em;
+  align-items: flex-end;
+  /* Flex direction by default is row, but if its changed to column, it will can the whole direction of the items in the container */
+  flex-direction: raw; 
+  
 }
 
 .Flex-container2{
@@ -21,14 +27,16 @@ h2{
 background: peachpuff;
 border: 4px solid brown;
 height: 180px; 
+/* As the Flex grow number goes up the item box grows faster and O IS Default number */
 flex-grow: 1;
 }
 .Flex-container .two{
   background: peachpuff;
   border: 4px solid brown;
   height: 180px; 
-  flex-grow: 2;
-  flex-shrink: 1;
+  flex-grow: 1;
+/* Flex shrink will shrink the item 2 times faster than the other items */
+  flex-shrink: 2;
   flex-basis: 0%;
   }
 /* Play with these property values to better understand the concept behind it */
